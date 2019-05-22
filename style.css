@@ -1,0 +1,80 @@
+* {
+  margin:0;
+  padding:0;
+}
+main {
+}
+.topbar {
+  position: relative;
+  height: 60px;
+}
+.logo {
+  position: relative;
+  width: 272px;
+  height: 92px;
+  margin: 200px auto 25px auto;
+}
+
+.search {
+  position: relative;
+  border-radius: 30px;
+  border-style: groove;
+  border-color: #E8E8E8;
+  border-width: 1px;
+  width: 585px;
+  height: 43px;
+  margin: 0 auto;
+}
+
+.searchbar {
+  position: absolute;
+  display: block;
+  margin: 6px auto auto 20px;
+  width: 518px;
+  height: 30px;
+  border-style: none;
+}
+
+.k_icon {
+  position: relative;
+  float: right;
+  margin: 12px 20px auto auto;
+}
+
+.buttons {
+  position: relative;
+  width: 300px;
+  height: 35px;
+  margin: 30px auto 0 auto;
+}
+
+.button {
+  position: relative;
+  float: left;
+  margin: 0 5px;
+  width: 140px;
+  height: 35px;
+  background-color: #F0F0F0;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+}
+
+.button:hover {
+  border-style: groove;
+  border-color: #E8E8E8;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
+}
+
+.button:active {
+  border-width: 1px;
+  border-style: solid;
+  border-color:  #00BFFF;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
+}
+
+.button:focus { 
+  outline: none; 
+}
